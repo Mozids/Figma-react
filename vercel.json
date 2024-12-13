@@ -1,0 +1,10 @@
+{
+    "rewrites": [
+        { "source": "/(.*)", "destination": "/index.html" },
+        { "source": "/Home", "destination": "./src/Pages/Home.jsx" },
+        { "source": "/Main", "destination": "./src/Pages/Main.jsx" },
+        { "source": "/Cart", "destination": "./src/Pages/Cart.jsx" },
+        { "source": "/Login", "destination": "./src/Pages/Login.jsx" },
+        { "source": "/Register", "destination": "./src/Pages/Register.jsx" }
+    ]
+}
