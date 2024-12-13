@@ -1,0 +1,45 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#home {
+    background-image: url("./assets/background.jpg");
+}
+
+/* Pastikan seluruh elemen slider tidak memiliki margin atau padding yang menyebabkan ruang kosong */
+.slick-slider {
+    margin: 0 auto; /* Memusatkan slider */
+    padding: 0; /* Menghilangkan padding */
+  }
+  
+  .slick-slide {
+    margin: 0; /* Menghilangkan margin antar slide */
+    padding: 0; /* Menghilangkan padding antar slide */ 
+  }
+  
+  /* Pastikan gambar tidak meluap dan memenuhi kontainer */
+  .slick-slide img {
+    width: 50%;    /* Gambar memenuhi lebar slide */
+    height: 50%;   /* Gambar memenuhi tinggi slide */
+    object-fit: cover; /* Menjaga rasio gambar agar tidak terdistorsi, akan memotong gambar jika perlu */
+    display: block; /* Menghilangkan spasi bawah */
+  }
+
+  body, html {
+    overflow-x: hidden; /* Menghilangkan scroll horizontal */
+    margin: 0; /* Menghapus margin default yang mungkin menyebabkan overflow */
+    padding: 0; /* Menghapus padding default */
+  }
+  
+  body, html {
+    overflow-x: hidden; /* Menghilangkan scroll horizontal */
+    margin: 0; /* Menghapus margin default yang mungkin menyebabkan overflow */
+    padding: 0; /* Menghapus padding default */
+  }
+  
+  * {
+    box-sizing: border-box; /* Menghindari margin/padding yang menyebabkan elemen meluap */
+  }
