@@ -25,7 +25,7 @@ export const Register = () => {
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }} className='w-full h-screen flex justify-center items-center text-white'>
-      <div className='w-full h-3/4 lg:w-1/4 lg:h-2/3 rounded-3xl bg-neutral-900 shadow-2xl'>
+      <div className='w-full pb-10 lg:w-1/4 lg:h-2/3 rounded-3xl bg-neutral-900 shadow-2xl'>
         <div className='flex flex-col justify-center items-center pt-10'>
           <img src={p} alt="TokoBookKu" className='w-16 pt-5' />
           <h1 className='pt-2 text-xl font-extrabold '>TOKOBOOKKU</h1>
@@ -78,7 +78,7 @@ export const Register = () => {
 
           <button
             type="submit"
-            className='w-full h-10 bg-neutral-800 text-white rounded-lg font-semibold mt-4'
+            className='w-full h-10 bg-neutral-800 text-white rounded-lg font-semibold mt-10'
           >
             Daftar
           </button>

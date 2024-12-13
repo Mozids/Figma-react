@@ -21,7 +21,7 @@ export const Login = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }} className='w-full h-screen flex justify-center items-center text-white'>
-      <div className='w-full h-3/4 lg:w-1/4 lg:h-2/3 rounded-3xl bg-neutral-900 shadow-2xl'>
+      <div className='w-full pb-10 lg:w-1/4 lg:h-2/3 rounded-3xl bg-neutral-900 shadow-2xl'>
         <div className='flex items-center pl-10 pt-7 pb-2'>
           <a href="/Home" className='flex items-center gap-1 hover:text-gray-400'>
             <FaArrowLeft />Back
