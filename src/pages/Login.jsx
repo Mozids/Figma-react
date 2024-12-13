@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import p from '../assets/Buku.jpg';
 import g from '../assets/Gooogle.svg';
 import { FaArrowLeft } from 'react-icons/fa';
+import background from "../assets/Background.jpg";
+
 
 export const Login = () => {
   const [email, setEmail] = useState('');
@@ -14,7 +16,11 @@ export const Login = () => {
   };
 
   return (
-    <div id='Home' className='w-full h-screen flex justify-center items-center text-white'>
+    <div style={{ 
+          backgroundImage: `url(${background})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }} className='w-full h-screen flex justify-center items-center text-white'>
       <div className='w-full h-3/4 lg:w-1/4 lg:h-2/3 rounded-3xl bg-neutral-900 shadow-2xl'>
         <div className='flex items-center pl-10 pt-7 pb-2'>
           <a href="/Home" className='flex items-center gap-1 hover:text-gray-400'>

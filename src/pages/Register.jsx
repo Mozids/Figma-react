@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaArrowLeft } from 'react-icons/fa';
+import background from "../assets/Background.jpg";
 import p from '../assets/Buku.jpg';
 
 export const Register = () => {
@@ -20,7 +20,11 @@ export const Register = () => {
   };
 
   return (
-    <div id='Home' className='w-full h-screen flex justify-center items-center text-white'>
+    <div style={{ 
+              backgroundImage: `url(${background})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }} className='w-full h-screen flex justify-center items-center text-white'>
       <div className='w-full h-3/4 lg:w-1/4 lg:h-2/3 rounded-3xl bg-neutral-900 shadow-2xl'>
         <div className='flex flex-col justify-center items-center pt-10'>
           <img src={p} alt="TokoBookKu" className='w-16 pt-5' />

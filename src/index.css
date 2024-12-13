@@ -5,10 +5,6 @@
 @tailwind utilities;
 
 
-#Home {
-    background-image: url("./assets/background.jpg");
-}
-
 /* Pastikan seluruh elemen slider tidak memiliki margin atau padding yang menyebabkan ruang kosong */
 .slick-slider {
     margin: 0 auto; /* Memusatkan slider */
