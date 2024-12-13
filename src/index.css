@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 
-#home {
+#Home {
     background-image: url("./assets/background.jpg");
 }
 

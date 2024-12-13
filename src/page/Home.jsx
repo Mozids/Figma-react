@@ -80,7 +80,7 @@ export const Main = () => {
     <>
       <div>
         <div className='flex justify-center'>
-          <div id='Home' className="h-2/4 w-full lg:w-2/4 pt-10">
+          <div id='' className="h-2/4 w-full lg:w-2/4 pt-10">
             <Slider {...settings}>
               <div className="flex justify-center items-center">
                 <img

@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" 
         element={<Main />} />
-        <Route path="figma-react-five.vercel.app/home" 
+        <Route path="/Home" 
         element={<><Header/> <Home/> <Footer/></>}/>
         <Route path="/Login" 
         element={<Login />} />
